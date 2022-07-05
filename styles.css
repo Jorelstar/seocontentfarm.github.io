@@ -107,7 +107,6 @@ nav {
 	position: absolute;
 	top: 10%;
 	left: 30%;
-	overflow: hidden;
 }
 
 #nav-links li {
@@ -121,6 +120,10 @@ nav {
 	display: grid;
 	justify-content: space-between;
 	grid-template-columns: 45% 50%;
+}
+
+.vid {
+	margin: auto;
 }
 
 
@@ -397,6 +400,10 @@ nav {
 
 	#nav-links {
 		display: none;
+	}
+
+	.vid embed {
+		width: 400px;
 	}
 
 
